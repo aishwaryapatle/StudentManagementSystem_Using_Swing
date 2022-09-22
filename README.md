@@ -1,7 +1,12 @@
 # StudentManagementSystem_Using_Swing
 
 ```  
-This is a simple Student Management System Console application made using Swing Framework. It would be nice to have a student management system that tracks various information. This information offers more significant possibilities for increasing student engagement. Also, the interface should be easy to understand after the onboarding process. Ideally, the system should be understandable without going through the onboarding process. MySQL is used for database purposes. The application contains 5 basic operations namely
+This is a simple Student Management System Console application made using Swing Framework.   
+It would be nice to have a student management system that tracks various information.   
+This information offers more significant possibilities for increasing student engagement.   
+Also, the interface should be easy to understand after the onboarding process.   
+Ideally, the system should be understandable without going through the onboarding process.   
+MySQL is used for database purposes. The application contains 5 basic operations namely
   1. Insert
   2. Update
   3. Delete
