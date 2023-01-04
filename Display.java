@@ -41,21 +41,10 @@ public class Display {
 			ResultSet rs = s.executeQuery(sql);
 			while((rs!=null) && (rs.next())){		
 				model.addElement(rs.getString("roll") + " - " + rs.getString("name")+ " - " + rs.getString("adress"));
-	        }
-			rs.close();
-	
+	        
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			JOptionPane.showMessageDialog(null, e.getMessage());
-			e.printStackTrace();
-		}
-		
-		try {
-			if(s != null) {
-				s.close();
-			}
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
